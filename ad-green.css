@@ -1,0 +1,80 @@
+/* The original yellow-and-red handbill, with restrained Indian green accents. */
+.recruitment-ad{background:#efe9d6;color:#29231d;--ad-yellow:#f5cd37;--ad-red:#b63027}.ad-screen{background:#f5cd37;border-color:#30291d}.ad-side-stripe{background:#b63027;box-shadow:-10px 0 #f7e2a1}.indian-retro-art{position:absolute;inset:0;z-index:1;pointer-events:none}.tricolour-print{position:absolute;left:0;right:0;bottom:0;height:.7%;background:linear-gradient(90deg,#bf6b30 0 33.3%,#efdfb2 33.3% 66.6%,#235a3b 66.6%);opacity:.8}.ad-scene[data-ad-scene="0"] .presenter-stamp{color:#23533a;border-color:#23533a}.ad-sticker{background:#235b3a;color:#f7e5ac}.ad-title-underline{background:#235b3a}.ad-job-note{border-color:#315739}.map-passport-stamp{color:#286242;border-color:#286242}.ad-progress>span{background:#b23728}
+.retro-ticket{position:absolute;bottom:15%;left:6%;padding:1% 1.7%;background:#f3e4b9;color:#23533a;border:2px dashed #325f3e;transform:rotate(3deg);box-shadow:3px 4px #73531e33;display:none}.recruitment-ad[data-scene="1"] .retro-ticket{display:block}.recruitment-ad[data-scene="1"] .ad-script{display:none}.retro-ticket>span,.retro-ticket small{display:block;font-size:.55cqw;letter-spacing:.1cqw}.retro-ticket>b{display:block;font:800 1.8cqw/.95 'Barlow Condensed',Impact,sans-serif;margin:.4cqw 0}
+.ad-route-herd{offset-path:path('M270 260Q180 70 426 107');offset-rotate:0deg;animation:ad-herd-travel 6s ease-in-out infinite;filter:drop-shadow(1px 2px 0 #e7d4a5)}.cow-bounce{animation:cow-step .5s ease-in-out infinite alternate;animation-delay:var(--step-delay,0s)}.cow-leg{transform-box:fill-box;transform-origin:center top;animation:cow-hoof .5s ease-in-out infinite alternate;animation-delay:var(--step-delay,0s)}.leg-b{animation-direction:alternate-reverse}@keyframes ad-herd-travel{0%,8%{offset-distance:0%}88%,100%{offset-distance:100%}}@keyframes cow-step{to{transform:translateY(-2px)}}@keyframes cow-hoof{from{rotate:-8deg}to{rotate:8deg}}
+@media(min-width:701px){.recruitment-ad[data-scene="1"] .ad-title{font-size:9.2cqw;width:58%}.recruitment-ad[data-scene="1"] .ad-sticker{left:45%;right:auto;top:12%;width:10%}.recruitment-ad[data-scene="1"] .ad-title-underline{top:62%;width:43%}.retro-ticket{bottom:14%;padding:.7% 1.7%}}
+@media(max-width:700px){.recruitment-ad[data-scene="0"] .ad-person{top:49%;height:40%;width:68%;right:0}.recruitment-ad[data-scene="0"] .presents-script{max-width:39%;line-height:1.35}.retro-ticket{bottom:21%;left:5%;padding:3%;max-width:40%;z-index:4;transform:rotate(-4deg)}.retro-ticket>span,.retro-ticket small{font-size:1.1cqw}.retro-ticket>b{font-size:3.6cqw}}
+@media(prefers-reduced-motion:reduce){.ad-route-herd{animation:none;offset-distance:50%}.cow-bounce,.cow-leg{animation:none}.arcade-supplied-image{transition:none}}
+/* Analogue receiver breakup: grain, scanning, rolling sync and tube vignette. */
+.tv-snow{background:#6b706b}.tv-snow canvas{image-rendering:auto;opacity:1;filter:contrast(1.34) brightness(.86)}.tv-snow:after{background:repeating-linear-gradient(0deg,#05080650 0 1px,transparent 1px 3px);box-shadow:inset 0 0 9vmin 2vmin #000b,inset 0 0 2vmin #0008;border-radius:3% / 4%;z-index:5}.tv-tracking{top:-20%;height:22%;background:linear-gradient(transparent,#111b 35%,#e2e6df25 38%,#060a06a6 41%,transparent 95%);border:0;mix-blend-mode:multiply;animation:analog-roll 1.05s linear infinite;opacity:.8;transform:skewY(-.6deg)}.tv-sync-lines{position:absolute;inset:0;z-index:3;opacity:.5;background:repeating-linear-gradient(0deg,transparent 0 38px,#02050277 39px 40px,transparent 41px 45px,#e1eddd55 46px 47px,transparent 48px 91px);animation:analog-sync .38s steps(4) infinite;pointer-events:none}.tv-channel-id{position:absolute;left:5%;top:6%;font:700 clamp(10px,2vw,20px)/1 monospace;letter-spacing:3px;color:#e1e8ce99;text-shadow:-2px 0 #26342488,2px 2px #0008;opacity:.7;z-index:4;transform:skew(-4deg);animation:analog-label .7s steps(2) infinite}
+@keyframes analog-roll{from{translate:0 -20%}to{translate:0 580%}}@keyframes analog-sync{0%{transform:translateY(-5%) skewX(.4deg)}50%{transform:translateY(5%) skewX(-.6deg)}100%{transform:translateY(0) skewX(.2deg)}}@keyframes analog-label{0%,85%{translate:0 0;opacity:.5}100%{translate:4px 2px;opacity:.2}}
+
+/* A quiet title card after the brief analogue channel change. */
+.final-recruitment-poster{position:absolute;inset:0;z-index:15;display:none;place-items:center;background:#efe8d4;color:#29261c;overflow:hidden;isolation:isolate}
+.final-recruitment-poster:before{content:'';position:absolute;inset:16px;border:1px solid #b8ac8b;pointer-events:none}
+.final-recruitment-poster:after{content:'';position:absolute;left:16px;right:16px;top:16px;height:5px;background:linear-gradient(90deg,#b03629 0 46%,#e4b839 46% 86%,#31684f 86%);pointer-events:none}
+.careers-invitation{align-self:stretch;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(25px,5vh,50px);width:100%;padding:70px 32px 105px;text-align:center;color:inherit;text-decoration:none;cursor:pointer}
+.invitation-eyebrow{font:600 clamp(8px,1vw,12px)/1.7 'DM Sans',Arial,sans-serif;letter-spacing:3px;color:#31684f}
+.invitation-title{font:500 clamp(36px,6.4vw,90px)/1.1 Georgia,serif;letter-spacing:-2px}.invitation-title em{color:#a83226;font-weight:400}
+.invitation-entry{display:flex;align-items:center;gap:30px;padding:15px 0;border-bottom:2px solid #a83226;font:700 clamp(12px,1.3vw,16px)/1.3 'DM Sans',Arial,sans-serif;letter-spacing:2px}.invitation-entry>span{font:400 30px/1 Georgia,serif;transition:transform .2s}
+.careers-invitation:hover .invitation-entry>span{transform:translate(5px,-5px)}.careers-invitation:focus-visible{outline:3px solid #31684f;outline-offset:-26px}
+.invitation-footnote{font:500 9px/1.5 'DM Sans',Arial,sans-serif;letter-spacing:2px;color:#82775e}
+#ad-rewatch{position:absolute;bottom:38px;left:50%;transform:translateX(-50%);padding:8px;background:transparent;border:0;font:500 10px/1.5 'DM Sans',Arial,sans-serif;color:#82775e;cursor:pointer;z-index:2;white-space:nowrap}#ad-rewatch:hover{color:#a83226}
+.cinema-end[data-phase="poster"] .final-recruitment-poster{display:grid}.cinema-end[data-phase="poster"] .paper-storm,.cinema-end[data-phase="poster"] .lens-flyer,.cinema-end[data-phase="poster"] #ending-skip,.cinema-end[data-phase="poster"] .flyer-mute{display:none!important}
+@media(max-width:700px){.invitation-title{letter-spacing:-1.3px}.invitation-eyebrow{letter-spacing:1.3px}.careers-invitation{padding-left:27px;padding-right:27px;gap:32px}.tv-channel-id{font-size:12px;letter-spacing:2px}}
+@media(prefers-reduced-motion:reduce){.tv-tracking,.tv-sync-lines,.tv-channel-id{animation:none}}
+/* The final punch-in is triggered by the spoken YOU, not by the scene entrance. */
+.recruitment-ad .ad-person{transition:transform .16s cubic-bezier(.2,.8,.2,1);transform-origin:100% 65%}
+.recruitment-ad[data-scene="6"][data-punch="true"] .ad-person{transform:scale(1.14)}
+@media(max-width:700px){.recruitment-ad[data-scene="6"][data-punch="true"] .ad-person{transform:scale(1.10)}}
+@media(prefers-reduced-motion:reduce){.recruitment-ad .ad-person{transition:none}}
+/* Anchor the cropped portraits below the frame, so the torso has a natural edge. */
+.recruitment-ad .ad-person,.recruitment-ad[data-scene] .ad-person,.recruitment-ad[data-punch=true] .ad-person{top:auto;bottom:-4%;right:0;left:auto;width:46%;height:88%;transform-origin:100% 100%}
+.recruitment-ad .hr-sprite>img{object-position:center bottom}
+.recruitment-ad[data-scene="3"] .ad-person{left:-3%;right:auto;width:46%;height:86%}
+@media(max-width:700px){
+ .recruitment-ad .ad-person,.recruitment-ad[data-scene] .ad-person,.recruitment-ad[data-punch=true] .ad-person{top:auto;bottom:-4%;right:0;left:auto;width:82%;height:66%}
+ .recruitment-ad[data-scene="3"] .ad-person{left:-7%;right:auto;width:68%;height:58%}
+}
+.recruitment-ad[data-scene="6"][data-punch=true] .ad-person{top:auto;bottom:-4%;right:0;left:auto;width:46%;height:88%}
+@media(max-width:700px){
+ .recruitment-ad[data-scene="6"][data-punch=true] .ad-person{top:auto;bottom:-4%;right:0;left:auto;width:82%;height:66%}
+ .recruitment-ad[data-scene="6"] .ad-you{bottom:40%;font-size:5cqw}
+}
+/* Larger copy is centred within its own clear space beside Rahul. */
+.ad-subtitle{font-size:1.5cqw;line-height:1.35;left:9%;right:9%;bottom:7.5%;padding:1.1% 2%;min-height:3.4cqw}
+.currency-rush{position:absolute;inset:0;z-index:5;overflow:hidden;pointer-events:none;visibility:hidden}
+.recruitment-ad[data-money=true] .currency-rush{visibility:visible}
+.currency-train{position:absolute;top:55%;left:0;white-space:nowrap;font:800 6cqw/1.2 Georgia,'Times New Roman',serif;color:#ffe29a;text-shadow:3px 3px 0 #225e42,-1px -1px 0 #ad4225;letter-spacing:.8cqw;will-change:transform}
+.recruitment-ad[data-business=true] .ad-person{width:51%;right:-1%;height:94%;bottom:-4%}
+@media(min-width:701px){
+ .ad-scene[data-ad-scene="0"]{padding:13% 7% 9%}
+ .ad-attention{font-size:9.2cqw;line-height:.91}
+ .ad-scene[data-ad-scene="1"],.ad-scene[data-ad-scene="2"],.ad-scene[data-ad-scene="5"],.ad-scene[data-ad-scene="6"]{padding-left:7%;padding-top:10%}
+ .ad-title{font-size:10cqw;width:63%;margin-top:5%}
+ .ad-title-underline{left:8%;width:46%;top:64%}
+ .ad-three{font-size:6.45cqw;line-height:1.02;width:66%}
+ .ad-job{font-size:5.05cqw;line-height:.98;max-width:65%;margin-top:2.4%}
+ .ad-hiring-ribbon{font-size:3.4cqw}
+ .ad-finale{font-size:7.8cqw}
+ .ad-map-title{font-size:6.1cqw;left:41%}
+ .ad-vision-scene>h2{font-size:4.9cqw}
+ .recruitment-ad[data-business=true] .ad-attention{font-size:7.7cqw;width:63%}
+}
+@media(max-width:700px){
+ .ad-subtitle{font-size:2.8cqw;line-height:1.35;left:6%;right:6%;bottom:5%;padding:2% 3%;min-height:7cqw}
+ .currency-train{font-size:11cqw;top:57%;letter-spacing:1.5cqw}
+ .recruitment-ad[data-business=true] .ad-person{width:100%;right:-6%;height:65%;bottom:-4%}
+ .recruitment-ad[data-business=true] .ad-attention{font-size:14cqw}
+}
+
+/* The supplied cash and portrait composition stays still, with all original cash positions. */
+.recruitment-ad[data-business=true] .ad-person{width:58%;height:88%;right:0;bottom:-4%;animation:none;transition:none}
+.recruitment-ad[data-business=true] .ad-person.pose-change{animation:none}
+.recruitment-ad[data-costume=india] .ad-person,.recruitment-ad[data-costume=russia] .ad-person{width:46%;height:88%;right:0;bottom:-4%;animation:none}
+@media(max-width:700px){
+ .recruitment-ad[data-business=true] .ad-person{width:110%;height:66%;right:-10%;bottom:-4%;animation:none}
+ .recruitment-ad[data-costume=india] .ad-person,.recruitment-ad[data-costume=russia] .ad-person{width:82%;height:66%;right:0;bottom:-4%}
+}
+
+.recruitment-ad[data-business=true] .presents-script{max-width:40%;line-height:1.3}

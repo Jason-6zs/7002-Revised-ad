@@ -1,0 +1,5 @@
+先解压 ZIP。将解压后目录里面的文件与 assets、docs 文件夹上传到仓库根目录。
+根目录直接是 index.html，不要只上传 ZIP，不要多套一层文件夹。
+更新旧仓库时覆盖所有同名文件，并上传新增素材。
+Settings → Pages → main → /(root) → Save。
+详细说明见 README.md。

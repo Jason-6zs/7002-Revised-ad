@@ -1,0 +1,17 @@
+{
+  "ad_audio_seconds": 46.649,
+  "ad_timeline_seconds": 46.997393,
+  "ending_seconds": 5.17,
+  "chapter_audio_seconds": {
+    "entry": 11.964,
+    "home": 21.316,
+    "about": 24.111,
+    "product": 23.876,
+    "russia": 24.842,
+    "careers": 21.896
+  },
+  "guide_voice_playback_rate": 0.94,
+  "guide_speech_seconds": 136.176,
+  "estimated_total_seconds": 199.9,
+  "timing_note": "Approximate uninterrupted playback. Cursor movement, page rendering, user clicks and pauses affect elapsed time."
+}
