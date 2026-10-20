@@ -3,36 +3,42 @@
     "id": "entry",
     "title": "Come with me",
     "text": "Ah, you are still here! Wonderful. Let me show you around Ganga. Follow my cursor... and let us step inside. Your next chapter starts right here.",
-    "seconds": 12.38095238095238
+    "seconds": 11.9640625
   },
   {
     "id": "home",
     "title": "Welcome to Ganga",
-    "text": "Welcome to Ganga! I am your HR guide. Our story begins in Hyderabad, India... and our next ambition takes us to Russia. We are looking for one Pharmaceutical Localisation Project Manager. A big title, yes! But first, let me introduce the people and purpose behind this mission.",
-    "seconds": 22.38095238095238
+    "text": "Ah, welcome to Ganga! Rahul here, your HR guide. From Hyderabad, India, to Russia — now that is an exciting journey! Our mission brings together local pharmaceutical production and medicine launch. And we need a project manager who can connect our headquarters, our partner factory, and our people. Wonderful! Come, let me show you around.",
+    "seconds": 22.55
   },
   {
     "id": "about",
     "title": "Our Indian roots",
     "text": "Here is what drives us. At Ganga, our focus is affordable generic medicines, quality manufacturing... and access to healthcare. We bring India's pharmaceutical expertise into an international project. For me, that means bringing different teams together around one shared purpose. Now, come and meet the medicine at the centre of our project.",
-    "seconds": 24.76190476190476
+    "seconds": 24.111
   },
   {
     "id": "product",
     "title": "Meet omeprazole",
     "text": "Meet omeprazole! It reduces stomach acid and is used for conditions such as acid reflux and ulcers. Look... we can turn this packaging concept around. This is an illustrative design, of course. Now, why localise? We want to explore bringing Indian manufacturing knowledge closer to the Russian market. Let me show you how the two countries connect.",
-    "seconds": 27.142857142857142
+    "seconds": 23.8759375
   },
   {
     "id": "russia",
-    "title": "India to Russia",
-    "text": "Here is India... our foundation. And here is Russia... our planned next chapter. The idea is to transfer expertise, develop a local team, and strengthen local supply. This remains a proposed project, with approvals and feasibility still to be worked through. That is why cross-cultural leadership matters so much. And that brings me to you!",
-    "seconds": 26.19047619047619
+    "title": "Production and medicine launch",
+    "text": "Now, look! Here is India, our headquarters and manufacturing foundation. And here is Russia, our partner factory and market. Together, we will localise Omez production and support its launch in Russia. Technology transfer, quality, validation, and launch readiness — all connected! Of course, local approvals and quality processes matter at every step. A big mission, yes? And that brings me to you!",
+    "seconds": 28.35
   },
   {
     "id": "careers",
-    "title": "Your next chapter",
-    "text": "Here it is... our Russia Pharmaceutical Localisation Project Manager opportunity. We need someone who can bridge Indian and Russian teams, guide the localisation journey, and turn ambition into practical progress. Take your time and explore. From India to Russia... perhaps our next chapter begins with you!",
-    "seconds": 23.32
+    "title": "Your role in the mission",
+    "text": "Ah, here is your opportunity! Russia Pharmaceutical Localisation Project Manager. Our mission? Local Omez production and a successful launch in Russia! First, coordinate India headquarters and the Russia partner factory. Second, support production technology transfer. Third, manage quality, validation, and project risks. Fourth, coordinate cross-functional activities. And fifth, support successful local production and launch. You connect the technology, the plan, and the people. Now, what makes a strong candidate? Come, let us find out!",
+    "seconds": 37.25
+  },
+  {
+    "id": "ksa",
+    "title": "What we look for",
+    "text": "Wonderful! Three core competencies guide our evaluation. First, Technical and Quality Judgment — twenty-five percent. We evaluate your ability to identify technical risks and ensure pharmaceutical quality and regulatory compliance. Now, Project Management and Problem Solving — forty-five percent! We assess your ability to prioritize tasks, coordinate resources, and resolve challenges during production transfer. And Cross-Cultural Leadership and Communication — thirty percent. We evaluate your ability to lead multicultural teams and align Indian and Russian stakeholders. Ah, technical judgment, practical delivery, and people working together! From India to Russia, perhaps our next chapter begins with you!",
+    "seconds": 45.8059375
   }
 ]

@@ -1,17 +1,23 @@
 {
-  "ad_audio_seconds": 46.649,
+  "version": "v25",
   "ad_timeline_seconds": 46.997393,
   "ending_seconds": 5.17,
   "chapter_audio_seconds": {
-    "entry": 11.964,
-    "home": 21.316,
+    "entry": 11.9640625,
+    "home": 22.55,
     "about": 24.111,
-    "product": 23.876,
-    "russia": 24.842,
-    "careers": 21.896
+    "product": 23.8759375,
+    "russia": 28.35,
+    "careers": 37.25,
+    "ksa": 45.8059375
   },
   "guide_voice_playback_rate": 0.94,
-  "guide_speech_seconds": 136.176,
-  "estimated_total_seconds": 199.9,
-  "timing_note": "Approximate uninterrupted playback. Cursor movement, page rendering, user clicks and pauses affect elapsed time."
+  "guide_speech_seconds": 206.284,
+  "estimated_total_seconds": 273.0,
+  "timing_note": "Approximately 4 minutes 35 seconds uninterrupted. Loading, browser throttling and pauses affect elapsed time.",
+  "ksa_audio_click_seconds": [
+    4.99,
+    15.79,
+    26.57
+  ]
 }
